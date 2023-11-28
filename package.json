@@ -1,0 +1,25 @@
+{
+  "name": "em-looker",
+  "version": "1.0.0",
+  "description": "A command line app to inquire about employees",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Desean2001/em-looker.git"
+  },
+  "author": "desean2001",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Desean2001/em-looker/issues"
+  },
+  "homepage": "https://github.com/Desean2001/em-looker#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "inquirer": "^8.2.4",
+    "mysql2": "^3.6.5"
+  }
+}
